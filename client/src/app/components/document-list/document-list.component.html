@@ -19,4 +19,23 @@
       </div>
     </div>
   </div>
+
+  <div class="section-divider"></div>
+
+  <div class="doc-list-header">
+    <h2>Tables</h2>
+    <span class="doc-count" *ngIf="tables.length > 0">{{ tables.length }} tables</span>
+  </div>
+
+  <div class="doc-cards" *ngIf="tables.length > 0">
+    <div *ngFor="let table of tables" class="doc-card table-card">
+      <div class="doc-icon" [style.background]="getTableColor(table.name)">
+        <mat-icon>{{ getTableIcon(table.name) }}</mat-icon>
+      </div>
+      <div class="doc-info">
+        <span class="doc-title">{{ table.name }}</span>
+        <span class="doc-file">{{ table.row_count }} rows · {{ table.columns.length }} cols</span>
+      </div>
+    </div>
+  </div>
 </div>

@@ -55,6 +55,9 @@ export class ChatComponent implements AfterViewChecked {
           content: response.answer,
           sources: response.sources,
           timestamp: new Date(),
+          sql_query: response.sql_query,
+          results: response.results,
+          route: response.route,
         });
         this.modeChange.emit(response.mode);
         this.isLoading = false;
@@ -75,6 +78,11 @@ export class ChatComponent implements AfterViewChecked {
       event.preventDefault();
       this.sendMessage();
     }
+  }
+
+  getColumns(results: any[]): string[] {
+    if (!results || results.length === 0) return [];
+    return Object.keys(results[0]);
   }
 
   private scrollToBottom() {

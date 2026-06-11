@@ -1,0 +1,13 @@
+course_id,title,category,instructor,price,duration_hours,difficulty,rating
+1,Python Fundamentals,Programming,Dr. Sarah Lee,49.99,20,Beginner,4.8
+2,Advanced Python & OOP,Programming,Dr. Sarah Lee,79.99,35,Advanced,4.7
+3,Data Science with Python,Programming,Dr. Sarah Lee,99.99,45,Advanced,4.7
+4,Healthy Meal Prep,Cooking,Chef Marco Rossi,39.99,10,Beginner,4.9
+5,Advanced Nutrition Science,Cooking,Dr. Amy Chen,59.99,15,Intermediate,4.6
+6,Mediterranean Cooking,Cooking,Chef Marco Rossi,44.99,12,Intermediate,4.5
+7,Budget Travel Hacks,Travel,Jake Wanderer,29.99,8,Beginner,4.5
+8,World Explorer Masterclass,Travel,Jake Wanderer,69.99,25,Intermediate,4.7
+9,Fitness for Beginners,Fitness,Coach Lisa Torres,34.99,12,Beginner,4.8
+10,Advanced HIIT & Strength,Fitness,Coach Lisa Torres,54.99,20,Advanced,4.6
+11,Personal Finance 101,Finance,Prof. David Green,44.99,18,Beginner,4.9
+12,Investing & Wealth Building,Finance,Prof. David Green,89.99,30,Advanced,4.8

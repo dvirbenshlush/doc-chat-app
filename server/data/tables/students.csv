@@ -1,0 +1,26 @@
+student_id,first_name,last_name,email,age,city,country,join_date
+1,Alice,Cohen,alice.cohen@email.com,28,Tel Aviv,Israel,2023-01-15
+2,Bob,Smith,bob.smith@email.com,35,New York,USA,2023-02-20
+3,Clara,Levi,clara.levi@email.com,22,Jerusalem,Israel,2023-03-10
+4,David,Garcia,david.garcia@email.com,31,Madrid,Spain,2023-01-28
+5,Emma,Mizrahi,emma.mizrahi@email.com,25,Haifa,Israel,2023-04-05
+6,Frank,Johnson,frank.j@email.com,42,London,UK,2023-02-14
+7,Grace,Shapiro,grace.shapiro@email.com,29,Tel Aviv,Israel,2023-05-22
+8,Henry,Brown,henry.b@email.com,38,Chicago,USA,2023-03-30
+9,Iris,Ben-David,iris.bd@email.com,24,Beer Sheva,Israel,2023-06-11
+10,Jake,Wilson,jake.w@email.com,33,Sydney,Australia,2023-01-05
+11,Kira,Peretz,kira.p@email.com,26,Tel Aviv,Israel,2023-07-18
+12,Leo,Martinez,leo.m@email.com,45,Barcelona,Spain,2023-04-25
+13,Maya,Goldberg,maya.g@email.com,30,Jerusalem,Israel,2023-08-02
+14,Noah,Davis,noah.d@email.com,27,Toronto,Canada,2023-05-15
+15,Olivia,Katz,olivia.k@email.com,23,Haifa,Israel,2023-09-01
+16,Paul,Anderson,paul.a@email.com,36,Berlin,Germany,2023-02-08
+17,Quinn,Friedman,quinn.f@email.com,31,Tel Aviv,Israel,2023-10-12
+18,Rachel,Thompson,rachel.t@email.com,28,Paris,France,2023-06-20
+19,Sam,Levy,sam.l@email.com,34,New York,USA,2023-03-18
+20,Tara,Williams,tara.w@email.com,22,London,UK,2023-11-05
+21,Uri,Azoulay,uri.a@email.com,40,Tel Aviv,Israel,2023-07-30
+22,Vera,Miller,vera.m@email.com,29,Toronto,Canada,2023-04-14
+23,Will,Chen,will.c@email.com,32,Singapore,Singapore,2023-08-22
+24,Xena,Cohen,xena.co@email.com,26,Jerusalem,Israel,2023-09-15
+25,Yara,Jackson,yara.j@email.com,38,Miami,USA,2023-12-01

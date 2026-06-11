@@ -25,7 +25,7 @@ server/.env
 # Sentence-transformers / HuggingFace model cache
 server/.cache/
 .cache/
-models/
+server/models/
 
 # ── Node / Angular ────────────────────────────────────────
 client/node_modules/

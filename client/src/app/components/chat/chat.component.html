@@ -12,7 +12,45 @@
       [class.assistant]="msg.role === 'assistant'"
     >
       <div class="bubble">
+        <div *ngIf="msg.route === 'sql'" class="route-badge sql-badge">
+          <mat-icon>storage</mat-icon> SQL
+        </div>
+        <div *ngIf="msg.route === 'docs'" class="route-badge docs-badge">
+          <mat-icon>description</mat-icon> Docs
+        </div>
+
         <p class="content">{{ msg.content }}</p>
+
+        <div *ngIf="msg.sql_query" class="sql-panel">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>Generated SQL</mat-panel-title>
+            </mat-expansion-panel-header>
+            <pre class="sql-code">{{ msg.sql_query }}</pre>
+          </mat-expansion-panel>
+        </div>
+
+        <div *ngIf="msg.results && msg.results.length > 0" class="results-panel">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>Results ({{ msg.results.length }} rows)</mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="table-wrapper">
+              <table class="results-table">
+                <thead>
+                  <tr>
+                    <th *ngFor="let col of getColumns(msg.results)">{{ col }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let row of msg.results">
+                    <td *ngFor="let col of getColumns(msg.results)">{{ row[col] }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </mat-expansion-panel>
+        </div>
 
         <div *ngIf="msg.sources && msg.sources.length > 0" class="sources">
           <mat-expansion-panel>

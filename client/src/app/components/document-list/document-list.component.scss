@@ -105,3 +105,13 @@
     text-overflow: ellipsis;
   }
 }
+
+.section-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin: 8px 10px;
+}
+
+.table-card {
+  border-color: rgba(255, 255, 255, 0.06);
+}

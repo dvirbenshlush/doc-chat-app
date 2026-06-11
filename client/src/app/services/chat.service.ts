@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { ChatResponse, Document, Message } from '../models/chat.models';
+import { ChatResponse, Document, Message, TableInfo } from '../models/chat.models';
 
 @Injectable({ providedIn: 'root' })
 export class ChatService {
@@ -18,5 +18,9 @@ export class ChatService {
 
   getDocuments(): Observable<{ documents: Document[] }> {
     return this.http.get<{ documents: Document[] }>(`${this.apiUrl}/documents`);
+  }
+
+  getTables(): Observable<{ tables: TableInfo[] }> {
+    return this.http.get<{ tables: TableInfo[] }>(`${this.apiUrl}/tables`);
   }
 }

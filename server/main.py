@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 from routers import chat as chat_router
-from services import document_service
+from services import document_service, db_service
 
 load_dotenv()
 
@@ -12,6 +12,8 @@ load_dotenv()
 async def lifespan(app: FastAPI):
     print("Loading documents and embedding model (first run downloads ~90MB)...")
     document_service.load_documents()
+    print("Loading relational tables into DuckDB...")
+    db_service.load_tables()
     yield
 
 

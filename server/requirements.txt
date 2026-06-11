@@ -5,3 +5,5 @@ numpy
 groq
 python-dotenv
 pydantic
+duckdb
+pandas
