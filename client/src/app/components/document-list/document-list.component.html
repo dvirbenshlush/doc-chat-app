@@ -1,0 +1,22 @@
+<div class="doc-list">
+  <div class="doc-list-header">
+    <h2>Guides</h2>
+    <span class="doc-count" *ngIf="!loading">{{ documents.length }} files</span>
+  </div>
+
+  <div *ngIf="loading" class="loading">
+    <mat-spinner diameter="28"></mat-spinner>
+  </div>
+
+  <div *ngIf="!loading" class="doc-cards">
+    <div *ngFor="let doc of documents" class="doc-card">
+      <div class="doc-icon" [style.background]="getColor(doc.name)">
+        <mat-icon>{{ getIcon(doc.name) }}</mat-icon>
+      </div>
+      <div class="doc-info">
+        <span class="doc-title">{{ doc.display_name }}</span>
+        <span class="doc-file">{{ doc.name }}</span>
+      </div>
+    </div>
+  </div>
+</div>

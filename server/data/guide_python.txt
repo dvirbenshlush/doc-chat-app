@@ -1,0 +1,92 @@
+Python Programming Guide
+
+Python is a high-level, interpreted programming language known for its clear syntax and readability. This guide covers the core concepts every Python developer should know.
+
+Variables and Data Types
+Python uses dynamic typing, meaning you do not need to declare a variable's type. The most common data types are int (whole numbers), float (decimal numbers), str (text), bool (True/False), list (ordered mutable collection), tuple (ordered immutable collection), dict (key-value pairs), and set (unordered unique values).
+
+Example:
+name = "Alice"
+age = 30
+height = 5.7
+is_active = True
+scores = [95, 87, 92]
+profile = {"name": "Alice", "age": 30}
+
+Control Flow
+Python uses indentation to define code blocks. The main control flow structures are if/elif/else for conditions, for loops for iteration, and while loops for repeated execution.
+
+Example:
+for score in scores:
+    if score >= 90:
+        print("Excellent")
+    elif score >= 75:
+        print("Good")
+    else:
+        print("Needs improvement")
+
+Functions
+Functions are defined with the def keyword. Python supports default parameter values, keyword arguments, and *args / **kwargs for variable-length argument lists. Functions always return None unless a return statement is used.
+
+Example:
+def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+
+result = greet("Alice")           # Hello, Alice!
+result = greet("Bob", "Hi")       # Hi, Bob!
+
+List Comprehensions
+List comprehensions provide a concise way to create lists. They replace simple for-loop constructions with a single readable expression.
+
+squares = [x ** 2 for x in range(10)]
+evens = [x for x in range(20) if x % 2 == 0]
+
+Object-Oriented Programming
+Python supports OOP through classes. A class bundles data (attributes) and behavior (methods). The __init__ method is the constructor. Use self to reference the current instance. Inheritance allows a child class to extend a parent class.
+
+Example:
+class Animal:
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+
+    def speak(self):
+        return f"{self.name} makes a sound."
+
+class Dog(Animal):
+    def speak(self):
+        return f"{self.name} barks!"
+
+dog = Dog("Rex", "Canis lupus")
+print(dog.speak())   # Rex barks!
+
+Error Handling
+Use try/except blocks to handle exceptions gracefully. The finally block runs regardless of whether an exception occurred.
+
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+finally:
+    print("Done")
+
+File Handling
+Open files with the open() function. Always use the with statement to ensure files are properly closed.
+
+with open("data.txt", "r") as f:
+    content = f.read()
+
+Popular Libraries
+- os / pathlib: file system operations
+- json: parse and generate JSON data
+- datetime: date and time manipulation
+- requests: HTTP calls to external APIs
+- pandas: data analysis and manipulation
+- numpy: numerical computing
+- flask / fastapi: web frameworks
+
+Virtual Environments
+Use virtual environments to isolate project dependencies. Create one with python -m venv venv, activate it with venv\Scripts\activate (Windows) or source venv/bin/activate (Mac/Linux), then install packages with pip install.
+
+Best Practices
+Follow PEP 8 style guidelines: use snake_case for variables and functions, PascalCase for classes, and UPPER_CASE for constants. Write docstrings for public functions. Keep functions small and focused on a single responsibility. Prefer explicit code over clever shortcuts.

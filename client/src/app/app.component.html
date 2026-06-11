@@ -1,0 +1,19 @@
+<div class="app-layout">
+  <header class="app-header">
+    <div class="header-left">
+      <h1>Doc Chat</h1>
+    </div>
+    <span
+      class="mode-badge"
+      [class.groq-mode]="mode === 'groq'"
+      [class.retrieval-mode]="mode === 'retrieval'"
+    >
+      {{ mode === 'groq' ? '⚡ Groq AI' : '🔍 Retrieval Only' }}
+    </span>
+  </header>
+
+  <div class="main-content">
+    <app-document-list class="sidebar"></app-document-list>
+    <app-chat class="chat-panel" (modeChange)="onModeChange($event)"></app-chat>
+  </div>
+</div>

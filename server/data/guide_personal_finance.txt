@@ -1,0 +1,30 @@
+Personal Finance Guide
+
+Taking control of your finances reduces stress, builds wealth, and gives you options in life. This guide covers budgeting, building an emergency fund, managing debt, investing for growth, and planning for retirement.
+
+Budgeting with the 50/30/20 Rule
+The 50/30/20 rule is a simple framework for allocating your after-tax income. Allocate 50% to needs — fixed essential expenses like rent, utilities, groceries, minimum loan payments, and transport to work. Allocate 30% to wants — dining out, entertainment, subscriptions, hobbies, and non-essential shopping. Allocate 20% to savings and debt repayment above the minimums — this includes your emergency fund, investments, and extra loan payments. Track every expense for one month using a spreadsheet or app (YNAB, Mint, or a simple Google Sheet) to identify where your money actually goes versus where you think it goes. Most people are surprised to find their "wants" category is far larger than 30%.
+
+Building an Emergency Fund
+An emergency fund is cash set aside for unexpected events: job loss, medical bills, car repairs, or home emergencies. Without one, any surprise expense forces you into debt. Start by saving one month of essential expenses, then work toward 3–6 months. Keep your emergency fund in a high-yield savings account — separate from your checking account to reduce temptation, but accessible within 1–2 business days. Do not invest your emergency fund in stocks or anything that can lose value short-term.
+
+Understanding and Paying Off Debt
+Not all debt is equal. High-interest debt (credit cards, payday loans, personal loans above 10%) should be eliminated aggressively. Two popular payoff strategies are the avalanche method and the snowball method. The avalanche method targets the highest-interest debt first while paying minimums on others, minimizing total interest paid. The snowball method targets the smallest balance first regardless of interest rate, providing psychological wins that maintain motivation. Mathematically, avalanche is superior; psychologically, snowball often leads to better real-world outcomes. Choose based on your personality.
+
+Credit Score Basics
+Your credit score (ranges from 300 to 850 in most systems) affects loan approval and interest rates. The main factors are: payment history (35%) — pay every bill on time; credit utilization (30%) — keep balances below 30% of your credit limit; length of credit history (15%) — keep old accounts open; credit mix (10%) — having both installment loans and revolving credit helps; new inquiries (10%) — avoid applying for multiple new credit lines simultaneously. Check your credit report for free annually to identify errors.
+
+Investing Basics
+Investing grows wealth over time through compound interest — earning returns on your returns. The stock market has historically returned an average of 7–10% per year before inflation over long periods. Start with low-cost index funds that track the broad market (S&P 500 ETFs), which outperform most actively managed funds over 15+ year periods because of lower fees. Diversify across asset classes (stocks, bonds, real estate) and geographies to reduce risk. The most important investing principle: start early. Investing $200/month from age 25 produces significantly more wealth by retirement than investing $400/month starting at age 35, due to compounding.
+
+Tax-Advantaged Accounts
+Use tax-advantaged retirement accounts before investing in taxable brokerage accounts. A 401(k) or employer pension allows pre-tax contributions, reducing your taxable income today — always contribute enough to get the full employer match, which is free money. A Roth IRA uses after-tax contributions but grows tax-free, meaning withdrawals in retirement are not taxed — ideal if you expect to be in a higher tax bracket in retirement. Maximize contributions to these accounts annually before opening a taxable investment account.
+
+Net Worth Tracking
+Net worth equals total assets (cash, investments, property value) minus total liabilities (mortgage, loans, credit card balances). Calculating your net worth monthly or quarterly gives a true picture of your financial progress. Unlike income or savings rate, net worth shows whether you are actually building wealth. Most financial advisors suggest your net worth at retirement should be 25 times your annual expenses, allowing a 4% annual withdrawal rate that historically sustains a 30-year retirement.
+
+Insurance as Financial Protection
+Insurance protects against catastrophic financial loss. Health insurance is the most critical — a single hospitalization can cost tens of thousands of dollars without coverage. Term life insurance is essential if others depend on your income. Disability insurance replaces income if you cannot work — statistically, you are more likely to experience long-term disability than death before retirement. Review all insurance policies annually and drop coverage you no longer need.
+
+Behavioral Finance
+The biggest obstacle to building wealth is our own behavior. Avoid lifestyle inflation — increasing spending every time income rises. Automate savings and investments so the money leaves your account before you can spend it. Resist panic selling during market downturns — time in the market beats timing the market. Be skeptical of get-rich-quick schemes, cryptocurrency speculation with money you cannot afford to lose, and any investment promising guaranteed above-market returns.

@@ -1,0 +1,51 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env_folder/
+
+# Secrets
+server/.env
+.env
+
+# Sentence-transformers / HuggingFace model cache
+server/.cache/
+.cache/
+models/
+
+# ── Node / Angular ────────────────────────────────────────
+client/node_modules/
+client/dist/
+client/.angular/
+client/coverage/
+client/.sass-cache/
+npm-debug.log*
+yarn-error.log*
+
+# ── IDE & OS ──────────────────────────────────────────────
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
